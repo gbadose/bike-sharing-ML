@@ -33,21 +33,17 @@ Exploring ensemble techniques could also improve results.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|default_vals|default_vals|default_vals|1.79949|
+|add_features|default_vals|default_vals|default_valsdefault_vals|1.79378|
+|hpo|'KNN: n_neighbors:5, algorithm:auto'|GBM: learning_rate: 0.1, lambda_l1: 1e-2, lambda_l2: 1e-2}|'XGB: learning_rate: 0.1, lambda_l1: 1e-2, lambda_l2: 1e-2}|1.83967|
+
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
 
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
-
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
